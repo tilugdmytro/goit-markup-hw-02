@@ -32,6 +32,10 @@ color: #2196F3;
     color: #000000;
 }
 
+.navigation-list .navigation-link.current {
+    color: var(--accent-color);
+}
+
 .navigation-link {
 font-weight: 500;
 font-size: 14px;
@@ -74,7 +78,6 @@ text-transform: uppercase;
 }
 
 .modal-btn {
-font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -183,5 +186,41 @@ letter-spacing: 0.03em;
 .address-mail-tel:focus {
     color: var(--accent-color);
 }
-
 /* =========== END FOOTER =========== */
+
+/* =========== PORTFOLIO =========== */
+.filters-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+
+background: #F5F4FA;
+border-radius: 4px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.projects-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.projects-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/* =========== END PORTFOLIO =========== */
